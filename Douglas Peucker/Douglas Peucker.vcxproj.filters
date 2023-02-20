@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\media">
+      <UniqueIdentifier>{6c9f6dbe-14a1-49e4-8c2c-6e00d2e74408}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -23,5 +26,26 @@
     <Font Include="Roboto-Bold.ttf">
       <Filter>Resource Files</Filter>
     </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="media\douglas peucker bezier.png">
+      <Filter>Resource Files\media</Filter>
+    </Image>
+    <Image Include="media\douglas peucker main.gif">
+      <Filter>Resource Files\media</Filter>
+    </Image>
+    <Image Include="media\douglas peucker.png">
+      <Filter>Resource Files\media</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
